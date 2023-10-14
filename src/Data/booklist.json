@@ -1,0 +1,246 @@
+[
+    {
+      "id": 335,
+      "bookname": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "price": 12.99,
+      "no_of_stocks": 50,
+      "language": "English",
+      "category": "Classic"
+    },
+    {
+      "id": 336,
+      "bookname": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "price": 10.99,
+      "no_of_stocks": 30,
+      "language": "English",
+      "category": "Classic"
+    },
+    {
+      "id": 337,
+      "bookname": "1984",
+      "author": "George Orwell",
+      "price": 14.99,
+      "no_of_stocks": 40,
+      "language": "English",
+      "category": "Science Fiction"
+    },
+    {
+      "id": 338,
+      "bookname": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "price": 9.99,
+      "no_of_stocks": 25,
+      "language": "English",
+      "category": "Classic"
+    },
+    {
+      "id": 339,
+      "bookname": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "price": 11.99,
+      "no_of_stocks": 35,
+      "language": "English",
+      "category": "Fantasy"
+    },
+    {
+      "id": 340,
+      "bookname": "One Hundred Years of Solitude",
+      "author": "Gabriel Garcia Marquez",
+      "price": 13.99,
+      "no_of_stocks": 20,
+      "language": "Spanish",
+      "category": "Magical Realism"
+    },
+    {
+      "id": 341,
+      "bookname": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "price": 10.49,
+      "no_of_stocks": 15,
+      "language": "English",
+      "category": "Fiction"
+    },
+    {
+      "id": 342,
+      "bookname": "The Alchemist",
+      "author": "Paulo Coelho",
+      "price": 9.99,
+      "no_of_stocks": 50,
+      "language": "Portuguese",
+      "category": "Fiction"
+    },
+    {
+      "id": 343,
+      "bookname": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "price": 19.99,
+      "no_of_stocks": 30,
+      "language": "English",
+      "category": "Fantasy"
+    },
+    {
+      "id": 344,
+      "bookname": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling",
+      "price": 12.99,
+      "no_of_stocks": 45,
+      "language": "English",
+      "category": "Fantasy"
+    },
+    {
+      "id": 345,
+      "bookname": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "price": 15.99,
+      "no_of_stocks": 10,
+      "language": "Spanish",
+      "category": "Classic"
+    },
+    {
+      "id": 346,
+      "bookname": "War and Peace",
+      "author": "Leo Tolstoy",
+      "price": 16.99,
+      "no_of_stocks": 20,
+      "language": "Russian",
+      "category": "Historical Fiction"
+    },
+    {
+      "id": 347,
+      "bookname": "The Little Prince",
+      "author": "Antoine de Saint-Exupéry",
+      "price": 8.99,
+      "no_of_stocks": 40,
+      "language": "French",
+      "category": "Children's"
+    },
+    {
+      "id": 348,
+      "bookname": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "price": 14.49,
+      "no_of_stocks": 25,
+      "language": "English",
+      "category": "Mystery"
+    },
+    {
+      "id": 349,
+      "bookname": "The Girl with the Dragon Tattoo",
+      "author": "Stieg Larsson",
+      "price": 11.99,
+      "no_of_stocks": 15,
+      "language": "Swedish",
+      "category": "Mystery"
+    },
+    {
+      "id": 350,
+      "bookname": "The Shining",
+      "author": "Stephen King",
+      "price": 12.49,
+      "no_of_stocks": 30,
+      "language": "English",
+      "category": "Horror"
+    },
+    {
+      "id": 351,
+      "bookname": "Moby-Dick",
+      "author": "Herman Melville",
+      "price": 13.99,
+      "no_of_stocks": 10,
+      "language": "English",
+      "category": "Adventure"
+    },
+    {
+      "id": 352,
+      "bookname": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "price": 9.99,
+      "no_of_stocks": 35,
+      "language": "English",
+      "category": "Science Fiction"
+    },
+    {
+      "id": 353,
+      "bookname": "The Road",
+      "author": "Cormac McCarthy",
+      "price": 11.99,
+      "no_of_stocks": 20,
+      "language": "English",
+      "category": "Dystopian"
+    },
+    {
+      "id": 354,
+      "bookname": "The Odyssey",
+      "author": "Homer",
+      "price": 10.99,
+      "no_of_stocks": 15,
+      "language": "Greek",
+      "category": "Epic Poetry"
+    },
+    {
+      "id": 355,
+      "bookname": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "price": 14.99,
+      "no_of_stocks": 25,
+      "language": "English",
+      "category": "Thriller"
+    },
+    {
+      "id": 356,
+      "bookname": "The Great Expectations",
+      "author": "Charles Dickens",
+      "price": 12.99,  "no_of_stocks": 40,
+      "language": "English",
+      "category": "Classic"
+    },
+    {
+      "id": 357,
+      "bookname": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "price": 39.99,
+      "no_of_stocks": 20,
+      "language": "Russian",
+      "category": "Philosophical Novel"
+    },
+    {
+      "id": 358,
+      "bookname": "Dracula",
+      "author": "Bram Stoker",
+      "price": 11.49,
+      "no_of_stocks": 30,
+      "language": "English",
+      "category": "Gothic Horror"
+    },
+    {
+      "id": 359,
+      "bookname": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "price": 10.99,
+      "no_of_stocks": 15,
+      "language": "English",
+      "category": "Classic"
+    },
+    {
+      "id": 360,
+      "bookname": "The Art of War",
+      "author": "Sun Tzu",
+      "price": 38.99,
+      "no_of_stocks": 50,
+      "language": "Chinese",
+      "category": "Military Strategy"
+    },
+    {
+      "id": 361,
+      "bookname": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "price": 13.99,
+      "no_of_stocks": 25,
+      "language": "English",
+      "category": "Fantasy"
+    }
+  ]
+  
+  

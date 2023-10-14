@@ -1,0 +1,19 @@
+[
+    { "id": 1, "category": "Classic" },
+    { "id": 2, "category": "Science Fiction" },
+    { "id": 3, "category": "Fantasy" },
+    { "id": 4, "category": "Magical Realism" },
+    { "id": 5, "category": "Fiction" },
+    { "id": 6, "category": "Historical Fiction" },
+    { "id": 7, "category": "Children's" },
+    { "id": 8, "category": "Mystery" },
+    { "id": 9, "category": "Horror" },
+    { "id": 10, "category": "Adventure" },
+    { "id": 11, "category": "Dystopian" },
+    { "id": 12, "category": "Epic Poetry" },
+    { "id": 13, "category": "Thriller" },
+    { "id": 14, "category": "Philosophical Novel" },
+    { "id": 15, "category": "Gothic Horror" },
+    { "id": 16, "category": "Military Strategy" }
+  ]
+  

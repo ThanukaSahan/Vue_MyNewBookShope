@@ -1,0 +1,218 @@
+[
+  {
+    "id": 0,
+    "author": "F. Scott Fitzgerald",
+    "contact_details": {
+      "address": "123 Main Street, New York, USA",
+      "tel": "+1 (555) 123-4567"
+    }
+  },
+  {
+    "id": 1,
+    "author": "Harper Lee",
+    "contact_details": {
+      "address": "456 Elm Avenue, Monroeville, USA",
+      "tel": "+1 (555) 234-5678"
+    }
+  },
+  {
+    "id": 2,
+    "author": "George Orwell",
+    "contact_details": {
+      "address": "789 Oak Road, London, UK",
+      "tel": "+44 20 1234 5678"
+    }
+  },
+  {
+    "id": 3,
+    "author": "Jane Austen",
+    "contact_details": {
+      "address": "101 Pine Lane, Hampshire, UK",
+      "tel": "+44 23 4567 8901"
+    }
+  },
+  {
+    "id": 4,
+    "author": "J.R.R. Tolkien",
+    "contact_details": {
+      "address": "234 Cedar Street, Oxford, UK",
+      "tel": "+44 20 9876 5432"
+    }
+  },
+  {
+    "id": 5,
+    "author": "Gabriel Garcia Marquez",
+    "contact_details": {
+      "address": "567 Palm Drive, Bogotá, Colombia",
+      "tel": "+57 1 2345678"
+    }
+  },
+  {
+    "id": 6,
+    "author": "J.D. Salinger",
+    "contact_details": {
+      "address": "890 Willow Lane, New York, USA",
+      "tel": "+1 (555) 876-5432"
+    }
+  },
+  {
+    "id": 7,
+    "author": "Paulo Coelho",
+    "contact_details": {
+      "address": "123 Desert Road, Rio de Janeiro, Brazil",
+      "tel": "+55 21 8765 4321"
+    }
+  },
+  {
+    "id": 8,
+    "author": "J.R.R. Tolkien",
+    "contact_details": {
+      "address": "456 Redwood Lane, Auckland, New Zealand",
+      "tel": "+64 9 8765 4321"
+    }
+  },
+  {
+    "id": 9,
+    "author": "J.K. Rowling",
+    "contact_details": {
+      "address": "789 Willow Drive, Edinburgh, Scotland",
+      "tel": "+44 131 123 4567"
+    }
+  },
+  {
+    "id": 10,
+    "author": "Miguel de Cervantes",
+    "contact_details": {
+      "address": "101 Oak Street, Madrid, Spain",
+      "tel": "+34 91 234 5678"
+    }
+  },
+  {
+    "id": 11,
+    "author": "Leo Tolstoy",
+    "contact_details": {
+      "address": "234 Birch Avenue, Moscow, Russia",
+      "tel": "+7 495 123 4567"
+    }
+  },
+  {
+    "id": 12,
+    "author": "Antoine de Saint-Exupéry",
+    "contact_details": {
+      "address": "567 Elm Road, Lyon, France",
+      "tel": "+33 4 1234 5678"
+    }
+  },
+  {
+    "id": 13,
+    "author": "Dan Brown",
+    "contact_details": {
+      "address": "890 Cedar Lane, Exeter, USA",
+      "tel": "+1 (555) 567-8901"
+    }
+  },
+  {
+    "id": 14,
+    "author": "Stieg Larsson",
+    "contact_details": {
+      "address": "123 Pine Drive, Stockholm, Sweden",
+      "tel": "+46 8 1234 5678"
+    }
+  },
+  {
+    "id": 15,
+    "author": "Stephen King",
+    "contact_details": {
+      "address": "456 Oak Street, Bangor, USA",
+      "tel": "+1 (555) 432-1098"
+    }
+  },
+  {
+    "id": 16,
+    "author": "Herman Melville",
+    "contact_details": {
+      "address": "101 Elm Lane, New York, USA",
+      "tel": "+1 (555) 678-9876"
+    }
+  },
+  {
+    "id": 17,
+    "author": "Suzanne Collins",
+    "contact_details": {
+      "address": "234 Redwood Drive, Connecticut, USA",
+      "tel": "+1 (555) 789-1234"
+    }
+  },
+  {
+    "id": 18,
+    "author": "Cormac McCarthy",
+    "contact_details": {
+      "address": "567 Pine Avenue, Santa Fe, USA",
+      "tel": "+1 (555) 876-2345"
+    }
+  },
+  {
+    "id": 19,
+    "author": "Homer",
+    "contact_details": {
+      "address": "890 Cedar Road, Athens, Greece",
+      "tel": "+30 21 1234 5678"
+    }
+  },
+  {
+    "id": 20,
+    "author": "Alex Michaelides",
+    "contact_details": {
+      "address": "123 Oak Drive, London, UK",
+      "tel": "+44 20 8765 4321"
+    }
+  },
+  {
+    "id": 21,
+    "author": "Charles Dickens",
+    "contact_details": {
+      "address": "456 Elm Lane, London, UK",
+      "tel": "+44 20 4321 9876"
+    }
+  },
+  {
+    "id": 22,
+    "author": "Fyodor Dostoevsky",
+    "contact_details": {
+      "address": "101 Birch Avenue, Moscow, Russia",
+      "tel": "+7 495 234 5678"
+    }
+  },
+  {
+    "id": 23,
+    "author": "Bram Stoker",
+    "contact_details": {
+      "address": "234 Pine Lane, Dublin, Ireland",
+      "tel": "+353 1 123 4567"
+    }
+  },
+  {
+    "id": 24,
+    "author": "Oscar Wilde",
+    "contact_details": {
+      "address": "567 Elm Road, Dublin, Ireland",
+      "tel": "+353 1 234 5678"
+    }
+  },
+  {
+    "id": 25,
+    "author": "Sun Tzu",
+    "contact_details": {
+      "address": "890 Willow Drive, Wu, China",
+      "tel": "+86 21 1234 5678"
+    }
+  },
+  {
+    "id": 26,
+    "author": "Patrick Rothfuss",
+    "contact_details": {
+      "address": "123 Redwood Lane, Madison, USA",
+      "tel": "+1 (555) 567-8901"
+    }
+  }
+]
