@@ -3,6 +3,10 @@
 
   <div class="bodyDiv">
     <div class="filters">
+      <button type="button" class="btn btn-success" @click="onPurchase">
+        <font-awesome-icon :icon="['fas', 'cart-shopping']" />
+        buy {{ noOfSelectBooks }}
+      </button>
       <div class="mainFilter">
         <label>Filter By</label>
         <select @change="onFilterOptionChange($event)">
@@ -51,12 +55,18 @@
           <th>Price $</th>
         </tr>
         <tr v-for="book in books" :key="book.id">
-          <td><input type="checkbox" v-model="book.isBookSelected" /></td>
-          <td class="bookNameRow">{{ book.bookname }}</td>
-          <td class="bookAuthorRow">{{ book.author }}</td>
-          <td>{{ book.category }}</td>
-          <td>{{ book.language }}</td>
-          <td>{{ book.price }}</td>
+          <td class="col-sm col-1">
+            <input
+              type="checkbox"
+              v-model="book.isItemSelected"
+              @change="onSelectBook(book)"
+            />
+          </td>
+          <td class="col-sm col-3">{{ book.bookname }}</td>
+          <td class="col-sm col-3">{{ book.author }}</td>
+          <td class="col-sm col-2">{{ book.category }}</td>
+          <td class="col-sm col-2">{{ book.language }}</td>
+          <td class="col-sm col-1">{{ book.price }}</td>
         </tr>
       </table>
     </div>
@@ -66,17 +76,27 @@
 <script>
 import bookData from "../Data/booklist.json";
 import bookCategorys from "../Data/bookCategory.json";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+
+library.add(fas);
 
 export default {
+  components: {
+    FontAwesomeIcon,
+  },
   data() {
     return {
       books: bookData,
       bookCategorys: bookCategorys,
       selected: "",
-      isBookSelected: false,
+      isItemSelected: false,
       isCategory: false,
       isBookName: false,
       isBookAuthor: false,
+      selecteditems: [],
+      noOfSelectBooks: 0,
     };
   },
   methods: {
@@ -119,6 +139,30 @@ export default {
         e.author.toLowerCase().includes(key)
       );
     },
+    onSelectBook(items) {
+      if (this.selecteditems.length === 0) {
+        this.selecteditems.push(items);
+      } else if (!this.isBookSelected(items)) {
+        this.selecteditems.push(items);
+      } else {
+        this.selecteditems = this.selecteditems.filter(
+          (e) => e.id !== items.id
+        );
+      }
+
+      this.noOfSelectBooks = this.selecteditems.length;
+    },
+    isBookSelected(book) {
+      return this.selecteditems.some(
+        (selectedBook) => selectedBook.id === book.id
+      );
+    },
+    onPurchase() {
+      this.$router.push({
+        name: "BooksPayment",
+        query: { yourItems: JSON.stringify(this.selecteditems) },
+      });
+    },
   },
   mounted() {
     this.selected = "";
@@ -126,19 +170,19 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .bodyDiv {
   width: 100%;
 }
 .filters {
   float: right;
   margin-right: 2.5%;
-  height: 100px;
+  height: 110px;
+  text-align: end;
 }
 
 td,
 th {
-  min-width: 100px;
   padding: 15px 0px;
 }
 
@@ -172,11 +216,20 @@ table {
 label {
   padding-right: 5px;
 }
-input {
-  width: 100px;
+.filters :is(input, select) {
+  width: 200px;
 }
 
 .mainFilter {
+  margin-bottom: 5px;
+}
+
+.btn-success {
+  background-color: #46e72dec;
+  text-transform: uppercase;
+}
+
+.filters .btn-success {
   margin-bottom: 5px;
 }
 </style>
