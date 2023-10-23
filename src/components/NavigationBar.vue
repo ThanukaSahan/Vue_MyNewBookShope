@@ -6,13 +6,13 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <router-link to="/About" class="nav-link">About</router-link>          
-        </li>     
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">           
         <li class="nav-item">
           <router-link to="/BookshopeSale" class="nav-link">Books</router-link>          
         </li>     
+        <li class="nav-item">
+          <router-link to="/About" class="nav-link">About</router-link>          
+        </li>  
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
